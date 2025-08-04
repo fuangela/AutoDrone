@@ -20,6 +20,6 @@ To connect to drone:
 
 
 Note:
-Manual takeoff (llm_controller.py)
+Manual takeoff: uncomment automatic takeoff section in llm_controller.py
 Web interfance at https://localhost:50001 / Running on local URL:  http://0.0.0.0:50001
-
+To change to virtual robot: uncomment robot_type = RobotType.VIRTUAL in typefly_with_voice.py
